@@ -1,4 +1,4 @@
-def operacion():
+﻿def operacion():
     """Esta función hace las veces de menú, aca se pregunta al
     usuario que operacion se va a realizar.
     Opciones:
@@ -18,12 +18,12 @@ def Sumar():
 
     return
 
-def Restar():
+def Restar(a,b):
     """Esta funcion resta los argumentos de entrada.
-    Quien la programe describe como son los argumentos de entrada
+    siendo "a" el primer valor y "b" el segundo valor. 
     """
 
-    return
+    return a-b
 
 def Multiplicar():
     """Esta funcion multiplica los argumentos de entrada.
